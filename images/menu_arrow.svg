@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.25" height="4.281" viewBox="0 0 7.25 4.281">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a595b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="dropdown_resources" data-name="dropdown resources" class="cls-1" d="M1141.81,73.23a0.616,0.616,0,0,0-.43,1.049l3.03,3.045a0.6,0.6,0,0,0,.86,0l3.02-3.045a0.612,0.612,0,0,0-.43-1.049h-6.05Z" transform="translate(-1141.22 -73.219)"/>
+</svg>
