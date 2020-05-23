@@ -1,0 +1,1126 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Buy Currency</title>
+  <!--Bootstrap 4-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!--style-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+
+</head>
+
+<body>
+  <nav>
+    <!--srart of top_nav-->
+    <div class="container-fluid top_nav">
+      <div class="container">
+        <div class="top_nav_menu nav_left">
+          <ul>
+            <li><img src="images/location_icon.svg" alt="" />550 SOUTH HILL STREET, SUITE 1607, LOS ANGELES, CA
+              90013</li>
+            <li><a href="#"><img src="images/phone_icon.svg" alt="" />888-348-2441</a></li>
+            <li><a href="#"><img src="images/contact_icon.svg" alt="" />CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="top_nav_menu nav_right">
+          <span>FOLLOW US:</span>
+          <ul>
+            <li><a href="#"><img src="images/fb_icon.svg" alt="" /></a></li>
+            <li><a href="#"><img src="images/tw_icon.svg" alt="" /></a></li>
+            <li><a href="#"><img src="images/instg_icon.svg" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end of top_nav-->
+    <!--srart of nav-->
+    <div id="mySidenav" class="container-fluid main_nav">
+      <div class="container">
+        <div class="nav_cont">
+          <a href="index.html" class="logo"><img src="images/logo.svg" alt="" /></a>
+          <a href="#" class="cart2"><img src="images/cart_icon.svg" alt="" /></a>
+          <div class="hamburger d-lg-none">
+            <div></div>
+          </div>
+          <div class="nav_menu">
+            <ul>
+              <li><a href="buy.html">BUY</a></li>
+              <li><a href="#">SELL</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li class="dropdown2"><a href="#">RESOURCES<img src="images/menu_arrow.svg" alt="" /></a>
+                <div class="dropdown2_content"> <a href="#">REQUEST SHIPPING KIT</a> <a href="#">SHIPPING
+                    INSTRUCTIONS</a>
+                  <a href="#">EXCHANGE ALERTS</a> <a href="#">CPOPULAR RATES</a> <a href="#">ALL RATES</a></div>
+              </li>
+              <li class="cart"><a href="#"><img src="images/cart_icon.svg" alt="" /></a></li>
+              <li class="login"><a href="#">LOGIN</a></li>
+              <li class="register"><a class="btn_2" href="#">REGISTER</a></li>
+            </ul>
+            <ul class="top_nav_list">
+              <li class="location"><img src="images/location_icon.svg" alt="" />550 SOUTH HILL STREET, SUITE 1607, LOS
+                ANGELES, CA
+                90013</li>
+              <li><a href="#"><img src="images/phone_icon.svg" alt="" />888-348-2441</a></li>
+              <li><a href="#"><img src="images/contact_icon.svg" alt="" />CONTACT US</a></li>
+              <ul class="follow_us">
+                <li>FOLLOW US:</li>
+                <li><a href="#"><img src="images/fb_icon.svg" alt="" /></a></li>
+                <li><a href="#"><img src="images/tw_icon.svg" alt="" /></a></li>
+                <li><a href="#"><img src="images/instg_icon.svg" alt="" /></a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of nav-->
+  </nav>
+  <!--srart of header-->
+  <header class="container-fluid header bg3">
+    <div class="container">
+      <div class="row header_cont">
+        <div class="col-xl-6 col-lg-7 col-md-9 col-12">
+          <h1>Buy Currencies</h1>
+          <p class="p2">Buy and sell over 20 different currencies at the most competitive rates on the market.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--end of header-->
+  <!--srart of buy currency-->
+  <section class="container-fluid buy_currency padd">
+    <div class="container">
+      <div class="buy_currency_cont">
+        <div class="currency_table">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header2 card_header1 active">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">Select Currency</a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body card_body1">
+                  <div class="create">
+                    <h3>CREATE YOUR ORDER</h3>
+                    <span>Select the currencies you want to purchase and lock in your
+                      price.</span>
+                  </div>
+                  <div class="select_currency">
+                    <form>
+                      <div class="select_currency_header">
+                        <div class="cell cell1"><span>CURRENCY:</span></div>
+                        <div class="cell cell2"><span>NOTE</span></div>
+                        <div class="cell cell3"><span>AMOUNT</span></div>
+                        <div class="cell cell4"><span>EXCHANGE RATE</span></div>
+                        <div class="cell cell5"><span>PRICE</span></div>
+                        <div class="cell cell6"></div>
+                      </div>
+                      <div class="select_currency_body">
+                        <div class="cell cell1"><span class="none">CURRENCY:</span>
+                          <div class="country"><img src="images/ZAR.svg" alt="" /><span>South African Rand</span></div>
+                        </div>
+                        <div class="cell cell2"><span class="none">NOTE:</span>
+                          <div class="note">
+                            <div class="class_14"><img src="images/Rectangle_blue.svg" alt="" /></div>
+                            <div class="form-group">
+                              <select class="selectpicker">
+                                <option selected>100.00</option>
+                                <option>200.00</option>
+                                <option>300.00</option>
+                                <option>400.00</option>
+                                <option>500.00</option>
+                              </select></div>
+                          </div>
+                        </div>
+                        <div class="cell cell3"><span class="none">AMOUNT:</span>
+                          <div class="form-group"><input type="text" class="form-control" value="1000.00"><span>ZAR</span>
+                          </div>
+                        </div>
+                        <div class="cell cell4"><span class="none">EXCHANGE RATE:</span>
+                          <div class="rate_value">
+                            <div class="group_5"><span class="gold">6.0479
+                                USD</span><span>=</span><span>100.00ZAR</span>
+                            </div>
+                            <div class="group_5"><span class="gold">1 USD</span><span>=</span><span>16.53ZAR</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cell cell5"><span class="none">PRICE:</span><span>$60.48</span></div>
+                        <div class="cell cell6"><a href="#"><img src="images/delete_icon.svg" alt="" /></a></div>
+                      </div>
+                      <div class="select_currency_body">
+                        <div class="cell cell1"><span class="none">CURRENCY:</span>
+                          <div class="country"><img src="images/NOK.svg" alt="" /><span>Norwegian Krone</span></div>
+                        </div>
+                        <div class="cell cell2"><span class="none">NOTE:</span>
+                          <div class="note">
+                            <div class="class_14"><img src="images/Rectangle_red.svg" alt="" /></div>
+                            <div class="form-group">
+                              <select class="selectpicker">
+                                <option selected>100.00</option>
+                                <option>200.00</option>
+                                <option>300.00</option>
+                                <option>400.00</option>
+                                <option>500.00</option>
+                              </select></div>
+                          </div>
+                        </div>
+                        <div class="cell cell3"><span class="none">AMOUNT:</span>
+                          <div class="form-group"><input type="text" class="form-control" value="1000.00"><span>NOK</span>
+                          </div>
+                        </div>
+                        <div class="cell cell4"><span class="none">EXCHANGE RATE:</span>
+                          <div class="rate_value">
+                            <div class="group_5"><span class="gold">10.8097 USD</span><span>=</span><span>100.00
+                                ZAR</span></div>
+                            <div class="group_5"><span class="gold">1 USD</span><span>=</span><span>9.25 NOK</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cell cell5"><span class="none">PRICE:</span><span>$108.10</span></div>
+                        <div class="cell cell6"><a href="#"><img src="images/delete_icon.svg" alt="" /></a></div>
+                      </div>
+                      <div class="total_currency">
+                        <div class="class_15">
+                          <div class="add_currency">
+                            <div class="form-group">
+                              <select class="selectpicker form-control">
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/currency_icon.svg' alt='' /><div class='group_2'><span>Add Another Currency</span></div></div>  
+                                </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/ZAR.svg' alt='' /><div class='group_2'><span class='bold'>ZAR</span><span>South African Rand</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/BRL.svg' alt='' /><div class='group_2'><span class='bold'>BRL</span><span>Brazilian Real</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/RUB.svg' alt='' /><div class='group_2'><span class='bold'>RUB</span><span>Russian Ruble</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/TRY.svg' alt='' /><div class='group_2'><span class='bold'>TRY</span><span>Turkish Lira</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/INR.svg' alt='' /><div class='group_2'><span class='bold'>INR</span><span>Indian Rupee</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/KRW.svg' alt='' /><div class='group_2'><span class='bold'>KRW</span><span>South Korean Won</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/NOK.svg' alt='' /><div class='group_2'><span class='bold'>NOK</span><span>Norwegian Kron</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/HKD.svg' alt='' /><div class='group_2'><span class='bold'>HKD</span><span>Hong Kong Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/SGD.svg' alt='' /><div class='group_2'><span class='bold'>SGD</span><span>Singapore Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/NZD.svg' alt='' /><div class='group_2'><span class='bold'>NZD</span><span>New Zealand Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/MXN.svg' alt='' /><div class='group_2'><span class='bold'>MXN</span><span>Mexican Peso</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/SEK.svg' alt='' /><div class='group_2'><span class='bold'>SEK</span><span>Swedish Krona</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CNY.svg' alt='' /><div class='group_2'><span class='bold'>CNY</span><span>Chinese Yuan</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CHF.svg' alt='' /><div class='group_2'><span class='bold'>CHF</span><span>Swiss Franc </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CAD.svg' alt='' /><div class='group_2'><span class='bold'>CAD</span><span>Canadian Dollar /span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/AUD.svg' alt='' /><div class='group_2'><span class='bold'>AUD</span><span>Australian Dollar </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/GBP.svg' alt='' /><div class='group_2'><span class='bold'>GBP</span><span>British Pound </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/EUR.svg' alt='' /><div class='group_2'><span class='bold'>EUR</span><span>Euro</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/JPY.svg' alt='' /><div class='group_2'><span class='bold'>JPY</span><span>Japanese Yen</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/VND.svg' alt='' /><div class='group_2'><span class='bold'>VND</span><span>Vietnam Dong</span></div></div>  
+                               </div>"></option>
+                              </select>
+                              <input class="form-control" type="text" placeholder="Have A Coupon? ENter it here">
+                            </div>
+                          </div>
+                          <div class="total">
+                            <span>SUBTOTAL</span>
+                            <span>SHIPPING:</span>
+                            <span>COUPON:</span>
+                            <span class="class_16">TOTAL:</span>
+                          </div>
+                        </div>
+                        <div class="total_num">
+                          <div><span class="none2">SUBTOTAL:</span><span>$168.58</span></div>
+                          <div><span class="none2">SHIPPING:</span><span>$0.00</span></div>
+                          <div><span class="none2">COUPON:</span><span>$0.00</span></div>
+                          <div><span class="none2 class_16">TOTAL:</span><span class="class_16">$168.58</span></div>
+                        </div>
+                      </div>
+                      <div class="currency_btn">
+                        <button class="btn_2" type="submit">CONTINUE</button></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header2 card_header2">
+                <a class="card-link" data-toggle="collapse" href="#collapse2">Account Login</a>
+              </div>
+              <div id="collapse2" class="collapse" data-parent="#accordion">
+                <div class="card-body card_body1">
+                  <div class="create">
+                    <span>Please login to your account to continue your order.</span></div>
+                  <div class="acccount_login">
+                    <div class="row  justify-content-center">
+                      <div class="col-md-6 col-12">
+                        <form>
+                          <div class="form-group">
+                            <input class="form-control user" type="email" placeholder="Username or Email Address">
+                            <input class="form-control password" type="password" placeholder="Password">
+                            <a href="#">Forgot password?</a>
+                            <button type="button" class="btn_2">LOGIN TO CONTINUE</button>
+                            <div class="crate_account">
+                              <span>DON'T HAVE AN ACCOUNT? </span>
+                              <a href="#">CREATE ACCOUNT</a>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header2 card_header3">
+                <a class="card-link" data-toggle="collapse" href="#collapse3">Shipping & Billing</a>
+              </div>
+              <div id="collapse3" class="collapse" data-parent="#accordion">
+                <div class="card-body card_body1">
+                  <div class="create">
+                    <span>Please enter Your shipping and billing details below.</span></div>
+                  <form class="shipping_form">
+                    <div class="row billing_info select_currency">
+                      <div class="col-lg-6 col-12 class_18">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class=" billing_info_header">
+                              <h4>BILLING ADDRESS</h4>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_20">
+                            <div class="form-group">
+                              <label>First Name</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_21">
+                            <div class="form-group">
+                              <label>Last Name</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label>Address 1</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label>Address 2</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_20">
+                            <div class="form-group">
+                              <label>City</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_26">
+                            <div class="form-group">
+                              <label>State</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_21">
+                            <div class="form-group">
+                              <label>Zip Code</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12 class_20">
+                            <div class="form-group phone_num">
+                              <label>Home Phone</label>
+                              <input type="text" class="form-control">
+                              <img src="images/USA.svg" alt="" />
+                              <span>+1</span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_21">
+                            <div class="form-group phone_num">
+                              <label>Best Number to be reached</label>
+                              <input type="text" class="form-control">
+                              <img src="images/USA.svg" alt="" />
+                              <span>+1</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-12 class_19">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="billing_info_header">
+                              <h4>SHIPPING ADDRESS</h4>
+                              <div class="form-group">
+                                <div class="check_list">
+                                  <label class="check_label">Copy billing details
+                                    <input type="checkbox" name="checkbox2">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_20">
+                            <div class="form-group">
+                              <label>First Name</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_21">
+                            <div class="form-group">
+                              <label>Last Name</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label>Address 1</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-group">
+                              <label>Address 2</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_20">
+                            <div class="form-group">
+                              <label>City</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_26">
+                            <div class="form-group">
+                              <label>State</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-12 class_21">
+                            <div class="form-group">
+                              <label>Zip Code</label>
+                              <input type="text" class="form-control">
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12 class_20">
+                            <div class="form-group phone_num">
+                              <label>Home Phone</label>
+                              <input type="text" class="form-control">
+                              <img src="images/USA.svg" alt="" />
+                              <span>+1</span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-12  class_21">
+                            <div class="form-group phone_num">
+                              <label>Best Number to be reached</label>
+                              <input type="text" class="form-control">
+                              <img src="images/USA.svg" alt="" />
+                              <span>+1</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 shipping_method">
+                        <div class="billing_info_header">
+                          <h4>SHIPPING METHOD</h4>
+                        </div>
+                        <div class="shipping_method_body">
+                          <div class="class_22">
+                            <img src="images/FedEx_logo.svg" alt="" />
+                            <div class="form-group">
+                              <div class="check_list check_list3">
+                                <label class="check_label choice1">
+                                  <input checked type="radio" name="radio1">
+                                  <span class="checkmark"><span>OVERNIGHT SHIPPING</span><span class="bold2">$9.45</span></span>
+                                </label>
+                                <label class="check_label choice2">
+                                  <input type="radio" name="radio1">
+                                  <span class="checkmark"><span> 2 DAY SHIPPING</span><span class="bold2">$2.35</span></span>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="package">
+                            <img src="images/package_icon.svg" alt="" />
+                            <p>You can rest assured that your shipment will be safe. All our shipments are insured.</p>
+                          </div>
+                        </div>
+                      </div>
+                        
+                    </div>
+                    <div class="currency_btn package_btn">
+                        <button type="submit" class="btn_2">CONTINUE</button></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header2 card_header4">
+                <a class="card-link" data-toggle="collapse" href="#collapse4">Review Order</a>
+              </div>
+              <div id="collapse4" class="collapse" data-parent="#accordion">
+                <div class="card-body card_body1">
+                  <div class="create">
+                    <span>Please review your order before you continue.</span>
+                  </div>
+                  <div class="order_info">
+                    <div class="row">
+                      <div class="col-sm-6 col-12">
+                        <span>BILLING ADDRESS</span>
+                        <ul>
+                          <li>Bank Tester</li>
+                          <li>550 S HILL ST STE 1607 / A020</li>
+                          <li>Los Angeles 90013-2452</li>
+                          <li>+1 (381) 638-9777</li>
+                        </ul>
+                      </div>
+                      <div class="col-sm-6 col-12">
+                        <span>SHIPPING ADDRESS</span>
+                        <ul>
+                          <li>Bank Tester</li>
+                          <li>550 S HILL ST STE 1607 / A020</li>
+                          <li>Los Angeles 90013-2452</li>
+                          <li>+1 (381) 638-9777</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="select_currency">
+                    <form>
+                      <div class="select_currency_header">
+                        <div class="cell cell1"><span>CURRENCY:</span></div>
+                        <div class="cell cell2"><span>NOTE</span></div>
+                        <div class="cell cell3"><span>AMOUNT</span></div>
+                        <div class="cell cell4"><span>EXCHANGE RATE</span></div>
+                        <div class="cell cell5"><span>PRICE</span></div>
+                        <div class="cell cell6"></div>
+                      </div>
+                      <div class="select_currency_body">
+                        <div class="cell cell1"><span class="none">CURRENCY:</span>
+                          <div class="country"><img src="images/ZAR.svg" alt="" /><span>South African Rand</span></div>
+                        </div>
+                        <div class="cell cell2"><span class="none">NOTE:</span>
+                          <div class="note">
+                            <div class="class_14"><img src="images/Rectangle_blue.svg" alt="" /></div>
+                            <div class="form-group">
+                              <select class="selectpicker">
+                                <option selected>100.00</option>
+                                <option>1000.00</option>
+                                <option>10000.00</option>
+                                <option>100000.00</option>
+                              </select></div>
+                          </div>
+                        </div>
+                        <div class="cell cell3"><span class="none">AMOUNT:</span>
+                          <div class="form-group"><input type="text" class="form-control" value="1000.00"><span>ZAR</span>
+                          </div>
+                        </div>
+                        <div class="cell cell4"><span class="none">EXCHANGE RATE:</span>
+                          <div class="rate_value">
+                            <div class="group_5"><span class="gold">6.0479
+                                USD</span><span>=</span><span>100.00ZAR</span>
+                            </div>
+                            <div class="group_5"><span class="gold">1 USD</span><span>=</span><span>16.53ZAR</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cell cell5"><span class="none">PRICE:</span><span>$60.48</span></div>
+                        <div class="cell cell6"><a href="#"><img src="images/delete_icon.svg" alt="" /></a></div>
+                      </div>
+                      <div class="select_currency_body">
+                        <div class="cell cell1"><span class="none">CURRENCY:</span>
+                          <div class="country"><img src="images/NOK.svg" alt="" /><span>Norwegian Krone</span></div>
+                        </div>
+                        <div class="cell cell2"><span class="none">NOTE:</span>
+                          <div class="note">
+                            <div class="class_14"><img src="images/Rectangle_red.svg" alt="" /></div>
+                            <div class="form-group">
+                              <select class="selectpicker">
+                                <option selected>100.00</option>
+                                <option>1000.00</option>
+                                <option>10000.00</option>
+                                <option>100000.00</option>
+                                <option>100000.00</option>
+                              </select></div>
+                          </div>
+                        </div>
+                        <div class="cell cell3"><span class="none">AMOUNT:</span>
+                          <div class="form-group"><input type="text" class="form-control" value="1000.00"><span>NOK</span>
+                          </div>
+                        </div>
+                        <div class="cell cell4"><span class="none">EXCHANGE RATE:</span>
+                          <div class="rate_value">
+                            <div class="group_5"><span class="gold">10.8097 USD</span><span>=</span><span>100.00
+                                ZAR</span></div>
+                            <div class="group_5"><span class="gold">1 USD</span><span>=</span><span>9.25 NOK</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cell cell5"><span class="none">PRICE:</span><span>$108.10</span></div>
+                        <div class="cell cell6"><a href="#"><img src="images/delete_icon.svg" alt="" /></a></div>
+                      </div>
+                      <div class="total_currency">
+                        <div class="class_15">
+                          <div class="add_currency">
+                            <div class="form-group">
+                              <select class="selectpicker form-control">
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/currency_icon.svg' alt='' /><div class='group_2'><span>Add Another Currency</span></div></div>  
+                                </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/ZAR.svg' alt='' /><div class='group_2'><span class='bold'>ZAR</span><span>South African Rand</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/BRL.svg' alt='' /><div class='group_2'><span class='bold'>BRL</span><span>Brazilian Real</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/RUB.svg' alt='' /><div class='group_2'><span class='bold'>RUB</span><span>Russian Ruble</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/TRY.svg' alt='' /><div class='group_2'><span class='bold'>TRY</span><span>Turkish Lira</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/INR.svg' alt='' /><div class='group_2'><span class='bold'>INR</span><span>Indian Rupee</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/KRW.svg' alt='' /><div class='group_2'><span class='bold'>KRW</span><span>South Korean Won</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/NOK.svg' alt='' /><div class='group_2'><span class='bold'>NOK</span><span>Norwegian Kron</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/HKD.svg' alt='' /><div class='group_2'><span class='bold'>HKD</span><span>Hong Kong Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/SGD.svg' alt='' /><div class='group_2'><span class='bold'>SGD</span><span>Singapore Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/NZD.svg' alt='' /><div class='group_2'><span class='bold'>NZD</span><span>New Zealand Dollar</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/MXN.svg' alt='' /><div class='group_2'><span class='bold'>MXN</span><span>Mexican Peso</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/SEK.svg' alt='' /><div class='group_2'><span class='bold'>SEK</span><span>Swedish Krona</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CNY.svg' alt='' /><div class='group_2'><span class='bold'>CNY</span><span>Chinese Yuan</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CHF.svg' alt='' /><div class='group_2'><span class='bold'>CHF</span><span>Swiss Franc </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/CAD.svg' alt='' /><div class='group_2'><span class='bold'>CAD</span><span>Canadian Dollar /span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/AUD.svg' alt='' /><div class='group_2'><span class='bold'>AUD</span><span>Australian Dollar </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/GBP.svg' alt='' /><div class='group_2'><span class='bold'>GBP</span><span>British Pound </span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/EUR.svg' alt='' /><div class='group_2'><span class='bold'>EUR</span><span>Euro</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/JPY.svg' alt='' /><div class='group_2'><span class='bold'>JPY</span><span>Japanese Yen</span></div></div>  
+                               </div>"></option>
+                                <option data-content="<div class='badge badge-success'><div class='currency'><img src='images/VND.svg' alt='' /><div class='group_2'><span class='bold'>VND</span><span>Vietnam Dong</span></div></div>  
+                               </div>"></option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="total">
+                            <span>SUBTOTAL</span>
+                            <span>SHIPPING-<span class="class_17">Overnight</span>:</span>
+                            <span>COUPON:</span>
+                            <span class="class_16">TOTAL:</span>
+                          </div>
+                        </div>
+                        <div class="total_num total_num2">
+                          <div><span class="none2">SUBTOTAL:</span><span>$168.58</span></div>
+                          <div><span class="none2">SHIPPING</span><span class="class_17">-Overnight</span><span>:</span><span>$9.45</span></div>
+                          <div><span class="none2">COUPON:</span><span>$0.00</span></div>
+                          <div><span class="none2 class_16">TOTAL:</span><span class="class_16">$178.03</span></div>
+                        </div>
+                      </div>
+                      <div class="currency_btn currency_btn2">
+                        <div class="form-group">
+                          <div class="check_list check_list2">
+                            <label class="check_label">I agree to the <a href="#">Terms and Conditions</a>
+                              <input type="checkbox" name="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn_2">CONTINUE</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header2 card_header5">
+                <a class="card-link" data-toggle="collapse" href="#collapse5">Payment Method</a>
+              </div>
+              <div id="collapse5" class="collapse" data-parent="#accordion">
+                <div class="card-body card_body1">
+                  <div class="create">
+                    <span>Please select a payment method below. You’ll have a chance to confirm your order before your
+                      purchase is processed.
+                    </span>
+                  </div>
+                  <div class="payment">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#credit"><img src="images/card_icon.svg" alt="" />CREDIT
+                          CARD</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#e_check"><img src="images/check_icon.svg" alt="" />E-CHECK</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#check"><img src="images/check_icon.svg" alt="" />CHECK</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#transfer"><img src="images/wire_transfer_icon.svg"
+                            alt="" />WIRE TRANSFER</a>
+                      </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div id="credit" class="container tab-pane active">
+                        <form>
+                          <div class="row billing_info select_currency">
+                            <div class="col-lg-6 col-12 class_18 class_23">
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="billing_info_header">
+                                    <h4>PAYMENT DETAILS</h4>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group group_8">
+                                    <label>Card Number<a href="#"><img src="images/question.svg" alt="" /></a></label>
+                                    <input type="text" class="form-control">
+                                    <img class="img_1" src="images/master_Card.svg" alt="" />
+                                    <img class="img_2" src="images/visa.svg" alt="" />
+                                    <img class="img_3" src="images/discover.svg" alt="" />
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_20">
+                                  <div class="form-group">
+                                    <label>Expiry Month<a href="#"><img src="images/question.svg" alt="" /></a></label>
+                                    <select class="selectpicker form-control">
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>January</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>February</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>March</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>April</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>May</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>June</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>July</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>August</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>September</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>October</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>November</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>December</span></div>  
+                                </div>"></option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_26">
+                                  <div class="form-group">
+                                    <label>Expiry Year<a href="#"><img src="images/question.svg" alt="" /></a></label>
+                                    <select class="selectpicker form-control">
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2020</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2019</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2018</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2017</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2016</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2015</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2014</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2013</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2012</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2011</span></div>  
+                                </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>2010</span></div>  
+                                </div>"></option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_21">
+                                  <div class="form-group">
+                                    <label>Security Code<a href="#"><img src="images/question.svg" alt="" /></a></label>
+                                    <input type="text" class="form-control" placeholder="CVV">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_20">
+                                  <div class="form-group">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_21">
+                                  <div class="form-group ">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Comments</label>
+                                    <textarea type="text" class="form-control" rows="6" placeholder="Please input some information that you think is relevant for this order..."></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-12 class_19 class_24">
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="billing_info_header">
+                                    <h4>BILLING ADDRESS</h4>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Address 1</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Address 2</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_20">
+                                  <div class="form-group">
+                                    <label>City</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_26">
+                                  <div class="form-group">
+                                    <label>State</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-4 col-12 class_21">
+                                  <div class="form-group">
+                                    <label>Zip Code</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group phone_num">
+                                    <label>Home Phone</label>
+                                    <input type="text" class="form-control">
+                                    <img src="images/USA.svg" alt="" />
+                                    <span>+1</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="currency_btn package_btn">
+                              <button type="submit" class="btn_2">CONTINUE</button></div>
+                        </form>
+                      </div>
+                      <div id="e_check" class="container tab-pane fade">
+                        <form>
+                          <div class="row billing_info select_currency justify-content-center">
+                            <div class="col-lg-6 col-12 class_27">
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="billing_info_header">
+                                    <h4>PAYMENT DETAILS</h4>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Bank Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_20">
+                                  <div class="form-group">
+                                    <label>Routing Number</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_21">
+                                  <div class="form-group">
+                                    <label>Account Number</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_20">
+                                  <div class="form-group">
+                                    <label>Check Memo</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-12 class_21">
+                                  <div class="form-group">
+                                    <label>Check Number</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Comments</label>
+                                    <textarea type="text" class="form-control" placeholder="Please input some information that you think is relevant for this order..."></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="currency_btn package_btn">
+                              <button type="submit" class="btn_2">CONTINUE</button></div>
+                        </form>
+                      </div>
+                      <div id="check" class="container tab-pane fade">
+                        <form>
+                          <div class="row billing_info select_currency justify-content-center">
+                            <div class="col-lg-6 col-12 class_27">
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="billing_info_header">
+                                    <h4>PAYMENT DETAILS</h4>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Bank Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Check Type</label>
+                                    <select class="selectpicker form-control">
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>Personal Check</span></div>  
+                              </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>Personal Check</span></div>  
+                              </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>Personal Check</span></div>  
+                              </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>Personal Check</span></div>  
+                              </div>"></option>
+                                      <option data-content="<div class='badge badge-success'><div class='currency'><span>Personal Check</span></div>  
+                              </div>"></option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group group_9">
+                                    <label>Check sending instruction will be sent to your email: </label>
+                                    <span>test@usfirstexchange.com.</span>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Comments</label>
+                                    <textarea type="text" class="form-control" placeholder="Please input some information that you think is relevant for this order..."></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="currency_btn package_btn">
+                              <button type="submit" class="btn_2">CONTINUE</button></div>
+                        </form>
+                      </div>
+                      <div id="transfer" class="container tab-pane fade">
+                        <form>
+                          <div class="row billing_info select_currency justify-content-center">
+                            <div class="col-lg-6 col-12 class_27">
+                              <div class="row">
+                                <div class="col-12">
+                                  <div class="billing_info_header">
+                                    <h4>PAYMENT DETAILS</h4>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Bank Name</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group group_9">
+                                    <label>Check sending instruction will be sent to your email: </label>
+                                    <span>test@usfirstexchange.com.</span>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-group">
+                                    <label>Comments</label>
+                                    <textarea type="text" class="form-control" placeholder="Please input some information that you think is relevant for this order..."></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="currency_btn package_btn">
+                              <button type="submit" class="btn_2">CONTINUE</button></div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div id="card-header3" class="card-header2 card_header6">
+                <a class="card-link" data-toggle="collapse" href="#collapse6">Order Confirmed</a>
+              </div>
+              <div id="collapse6" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end of buy currency-->
+
+  <!--srart of subscribe-->
+  <section class="container-fluid subscribe">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-12">
+          <h2>Subscribe to Our Newsletter</h2>
+          <p class="p2">Ready to sell? No more waiting. We provide everything you need to ship and receive funds for
+            currencies you
+            own.</p>
+          <form>
+            <div class="form-group email">
+              <input type="email" placeholder="Your Email Address">
+              <button type="button">SUBSCRIBE</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end of subscribe-->
+  <!-- Start of footer -->
+  <footer class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="footer_list class_10">
+            <div class="footer_list_cont">
+              <span>ABOUT US</span>
+              <p>US First Exchange is your gateway to world currencies. We’re located in downtown LA in the heart of
+                the
+                jewelry district. Whether you’re an investor or collector, you can buy currencies from the most
+                unexpected
+                places. We deal in any currency, and we’ll ship directly to you safely and securely.</p>
+            </div>
+            <div class="footer_list_cont">
+              <span>DISCLAIMER</span>
+              <p>US First Exchange's retail exchange rates are determined daily by US First Exchange at its sole
+                discretion. Rates for different currencies may differ on a day-to-day basis.</p>
+            </div>
+            <div class="footer_list_cont">
+              <span>USTrust Exchange </span>
+              <ul>
+                <li class="location"><img src="images/location_icon.svg" alt="" />550 South Hill Street, Suite 1607,
+                  Los
+                  Angeles, CA
+                  90013</li>
+                <li><img src="images/phone_icon.svg" alt="" />Phone: (+23)-456-789-123</li>
+                <li><img src="images/fax_icon.svg" alt="" />Fax: (+23)-456-789-123</li>
+                <li><img src="images/contact_icon.svg" alt="" />Email: info@ustrustexchange.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-8 col-sm-6 col-12">
+          <div class="footer_list footer_list2">
+            <div class="footer_list_cont footer_list_cont2">
+              <span>CUSTOMER SERVICE</span>
+              <ul>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">SITE MAP</a></li>
+              </ul>
+            </div>
+            <div class="footer_list_cont footer_list_cont2">
+              <span>RESOURCES</span>
+              <ul>
+                <li><a href="#">TERMS AND CONDITIONS</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+                <li><a href="#">RISK DISCLOSURE</a></li>
+                <li><a href="#">COMPLIANCE</a></li>
+                <li><a href="#">US TREASURY REGISTRATION</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="footer_list class_11">
+            <div class="socials">
+              <span>FOLLOW US:</span>
+              <ul>
+                <li><a href="#"><img src="images/fb_icon.svg" alt="" /></a></li>
+                <li><a href="#"><img src="images/tw_icon.svg" alt="" /></a></li>
+                <li><a href="#"><img src="images/instg_icon.svg" alt="" /></a></li>
+              </ul>
+            </div>
+            <div class="footer_logos">
+              <a href="index.html"><img src="images/logo.svg" alt="" /></a>
+              <a href="#"><img src="images/comode_logo.png" alt="" /></a>
+              <a href="#"><img src="images/bbb_logo.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div class="container-fluid end_footer">
+    <div class="container">
+      <span>Copyright © 2019 US TRUST EXCHANGE</span>
+    </div>
+  </div>
+  <!-- End of footer -->
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap-select.min.js"></script>
+
+</body>
+
+</html>
