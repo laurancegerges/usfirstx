@@ -95,6 +95,10 @@ p {
 	font-size: 1.55em;
 }
 
+.padd {
+	padding: 90px 15px
+}
+
 input:focus {
 	outline: none !important;
 	outline-color: transparent !important;
@@ -107,10 +111,12 @@ span {
 
 .btn_1:hover {
 	background-color: var(--hover1);
+	color: var(--white);
 }
 
 .btn_2:hover {
 	background-color: var(--hover2);
+	color: var(--white);
 }
 
 /* top nav */
@@ -372,15 +378,19 @@ nav .main_nav .closebtn {
 /* header */
 
 .header {
-	background-position: center;
+	background-position: left center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .header.header2 {
-	padding: 90px 15px 160px 15px;
+	padding: 70px 15px 160px 15px;
 	background-image: url(../images/converter_bg.jpg);
 	height: auto;
+}
+
+.header.header2 p {
+	padding-right: 20px
 }
 
 /* convert */
@@ -410,7 +420,7 @@ nav .main_nav .closebtn {
 }
 
 .convert_cont .block {
-	width:50%;
+	width: 50%;
 	-webkit-transition: .5s cubic-bezier(0.6, -0.18, 0.74, 0.05);
 	transition: .5s cubic-bezier(0.6, -0.18, 0.74, 0.05);
 }
@@ -429,25 +439,29 @@ nav .main_nav .closebtn {
 }
 
 .convert_cont .class_5.inverted {
-	position:relative;
-	-webkit-transform:translateX(100%);
-	transform:translateX(100%);
+	position: relative;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
 	padding-left: 20px;
 	padding-right: 0px;
 }
+
 .convert_cont .class_6.inverted {
-	position:relative;
-	-webkit-transform:translateX(-100%);
-	transform:translateX(-100%);
+	position: relative;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
 	padding-left: 0px;
 	padding-right: 20px;
 }
+
 .convert_cont .class_6 {
 	padding-left: 20px;
 }
+
 .convert_cont .class_6.inverted .form-group {
 	margin-bottom: 0px;
 }
+
 .convert_cont .form-group label {
 	font-weight: 400;
 	color: var(--black);
@@ -456,21 +470,23 @@ nav .main_nav .closebtn {
 }
 
 .convert_cont .form-group label span.second {
-	display:none
+	display: none
 }
 
-.convert_cont .class_5.inverted .form-group label span.second{
+.convert_cont .class_5.inverted .form-group label span.second {
 	display: inline-block;
-}
-.convert_cont .class_5.inverted .form-group label span.first{
-	display:none
 }
 
-.convert_cont .class_6.inverted .form-group label span.second{
+.convert_cont .class_5.inverted .form-group label span.first {
+	display: none
+}
+
+.convert_cont .class_6.inverted .form-group label span.second {
 	display: inline-block;
 }
-.convert_cont .class_6.inverted .form-group label span.first{
-	display:none
+
+.convert_cont .class_6.inverted .form-group label span.first {
+	display: none
 }
 
 .convert_cont .form-group .usa {
@@ -512,14 +528,13 @@ nav .main_nav .closebtn {
 	font-family: 'Bebas Neue', cursive;
 }
 
-.convert_cont .form-group input::-webkit-outer-spin-button,
-.convert_cont .form-group input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.convert_cont .form-group input::-webkit-outer-spin-button, .convert_cont .form-group input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 .convert_cont .form-group input[type=number] {
-  -moz-appearance: textfield;
+	-moz-appearance: textfield;
 }
 
 .convert_cont .class_5 .form-group input {
@@ -662,33 +677,30 @@ nav .main_nav .closebtn {
 	outline-color: none !important;
 }
 
-.badge-success {
+.bootstrap-select .currency {
 	color: var(--grey3);
 	background-color: transparent;
 	padding: 0px;
 	font-size: 1.15em;
-}
-
-.btn-light .badge-success {
-	font-size: 1em;
-}
-
-.badge-success .currency {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
 
-.badge-success .currency img {
+.bootstrap-select .btn-light .currency {
+	font-size: 1em;
+}
+
+.bootstrap-select .currency img {
 	width: 25px;
 	margin-right: 10px;
 }
 
-.btn-light .badge-success .currency img {
+.bootstrap-select .btn-light .currency img {
 	width: 35px;
 }
 
-.badge-success .currency .group_2 {
+.bootstrap-select .currency .group_2 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
@@ -697,18 +709,18 @@ nav .main_nav .closebtn {
 	color: var(--grey3);
 }
 
-.badge-success .currency .group_2 .bold {
+.bootstrap-select .currency .group_2 .bold {
 	margin-right: 5px;
 }
 
-.btn-light .badge-success .currency .group_2 .bold {
+.bootstrap-select .btn-light .currency .group_2 .bold {
 	margin-bottom: 3px;
 	font-weight: 600;
 	color: var(--black);
 	font-size: 1.35em;
 }
 
-.btn-light .badge-success .currency .group_2 {
+.bootstrap-select .btn-light .currency .group_2 {
 	flex-direction: column;
 }
 
@@ -829,14 +841,52 @@ nav .main_nav .closebtn {
 /* section_1 */
 
 .section_1 {
-	padding: 200px 15px;
 	background-color: var(--grey4);
+}
+
+.section_1.padd {
+	padding: 50px 15px 100px 15px;
+}
+
+.img_container img {
+	width: 100%;
+}
+
+.section_1 .content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.section_1 p {
+	font-size: 1.7em;
+	color: var(--grey3);
+}
+
+.section_1 .btns {
+	margin-top: 50px
+}
+
+.section_1 .btns a:first-child {
+	margin-right: 10px
+}
+
+.btn_1.btn_3 {
+	border: 1px solid var(--grey3);
+	color: var(--grey3);
+	background-color: var(--white);
+}
+
+.btn_1.btn_3:hover {
+	border: 1px solid var(--hover1);
+	color: var(--white);
+	background-color: var(--hover1);
 }
 
 /* subscribe */
 
 .subscribe {
-	padding: 90px 15px;
 	background-image: url(../images/newsletter_bg.jpg);
 	background-position: center;
 	background-size: cover;
@@ -919,6 +969,10 @@ nav .main_nav .closebtn {
 	text-align: center;
 	color: var(--white);
 	margin: 0px;
+}
+
+.subscribe .form-group.email button:hover {
+	background-color: var(--hover2);
 }
 
 /* footer */
@@ -1098,8 +1152,8 @@ nav .main_nav .closebtn {
 /* header */
 
 .header {
-	padding: 90px 15px 0px 15px;
-	height: 420px;
+	padding: 80px 15px 0px 15px;
+	height: 350px;
 }
 
 .bg2 {
@@ -1107,11 +1161,6 @@ nav .main_nav .closebtn {
 }
 
 /* rates */
-
-.padd {
-	padding: 80px 15px;
-	background-color: var(--grey4);
-}
 
 .rates_cont {
 	width: 100%;
@@ -1392,18 +1441,21 @@ nav .main_nav .closebtn {
 	flex-direction: column;
 }
 
-.card .card-body .action a {
-	width: 215px;
-	padding: 15px 25px;
+.button {
+	padding: 0px 25px;
 	border-radius: 5px;
+	line-height: 50px;
 	text-align: center;
 	font-weight: 700;
 	font-size: 1.15em;
 	color: var(--white);
+	text-transform: uppercase;
+	height: 50px;
 }
 
-.card .card-body .action .sell2 {
-	margin-top: 15px;
+.card .card-body .action a {
+	width: 215px;
+	margin: 7px 0px;
 }
 
 /* page: Buy Currency */
@@ -1417,60 +1469,63 @@ nav .main_nav .closebtn {
 }
 
 .card .card-header2 {
-	padding: 20px 30px 20px 105px;
+	padding: 10px 30px;
 	border-bottom: none;
 	background-color: var(--white);
 	border-radius: 10px;
-	background-size: 50px;
-	background-repeat: no-repeat;
-	background-position: 25px center;
 }
 
-.card .card_header1 {
+.card .card-header2 a {
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+
+.card .card_header1 a {
 	background-image: url(../images/select_currency_icon.svg);
 }
 
-.card .card_header1.active {
+.card .card_header1.active a {
 	background-image: url(../images/select_currency_icon_2.svg);
 }
 
-.card .card_header2 {
+.card .card_header2 a {
 	background-image: url(../images/login_icon.svg);
 }
 
-.card .card_header2.active {
+.card .card_header2.active a {
 	background-image: url(../images/login_icon_2.svg);
 }
 
-.card .card_header3 {
+.card .card_header3 a {
 	background-image: url(../images/shipping_icon.svg);
 }
 
-.card .card_header3.active {
+.card .card_header3.active a {
 	background-image: url(../images/shipping_icon_2.svg);
 }
 
-.card .card_header4 {
+.card .card_header4 a {
 	background-image: url(../images/order_icon.svg);
 }
 
-.card .card_header4.active {
+.card .card_header4.active a {
 	background-image: url(../images/order_icon_2.svg);
 }
 
-.card .card_header5 {
+.card .card_header5 a {
 	background-image: url(../images/payment_method_icon.svg);
 }
 
-.card .card_header5.active {
+.card .card_header5.active a {
 	background-image: url(../images/payment_method_icon_2.svg);
 }
 
-.card .card_header6 {
+.card .card_header6 a {
 	background-image: url(../images/confirm_icon.svg);
 }
 
-.card .card_header6.active {
+.card .card_header6.active a {
 	background-image: url(../images/confirm_icon_2.svg);
 }
 
@@ -1483,6 +1538,8 @@ nav .main_nav .closebtn {
 	font-weight: 700;
 	font-size: 2.55em;
 	color: var(--black);
+	width: 100%;
+	padding: 10px 0px 10px 90px;
 }
 
 .card .card-header2.active .card-link {
@@ -1724,6 +1781,10 @@ nav .main_nav .closebtn {
 	display: inline-block;
 }
 
+.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .bootstrap-select .currency .group_2 span {
+	margin-bottom: 0px;
+}
+
 .buy_currency .card .card_body1 .select_currency .total_currency .total_num {
 	display: flex;
 	justify-content: flex-start;
@@ -1774,27 +1835,27 @@ nav .main_nav .closebtn {
 	align-items: center;
 }
 
-.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .btn-light .badge-success .currency .group_2 {
+.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .bootstrap-select .btn-light .currency .group_2 {
 	flex-direction: row;
 }
 
-.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .btn-light .badge-success .currency img {
+.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .bootstrap-select .btn-light .currency img {
 	width: auto;
 	height: 25px;
 	margin-top: 1px;
 }
 
-.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .form-group .badge-success .currency .group_2 span {
+.buy_currency .card .card_body1 .select_currency .total_currency .add_currency .bootstrap-select .form-group .currency .group_2 span {
 	margin-bottom: 0px;
 }
 
-.buy_currency .card .card-body  .currency_btn {
+.buy_currency .card .card-body .currency_btn {
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 30px;
 }
 
-.buy_currency .card .card-body  .currency_btn button {
+.buy_currency .card .card-body .currency_btn button {
 	border-radius: 5px;
 	color: var(--white);
 	font-weight: 700;
@@ -2330,7 +2391,7 @@ nav .main_nav .closebtn {
 	outline: none !important;
 }
 
-.payment .form-group .badge-success {
+.payment .form-group .bootstrap-select .currency {
 	color: var(--black);
 	font-weight: 400;
 }
@@ -2347,7 +2408,6 @@ nav .main_nav .closebtn {
 	line-height: 1;
 }
 
-
 @media (max-width: 1199.98px) {
 	h2 {
 		font-size: 3.1em;
@@ -2362,6 +2422,21 @@ nav .main_nav .closebtn {
 	}
 	.group_1 .official_rate a {
 		padding: 14px;
+	}
+	.section_1 p {
+		font-size: 1.5em;
+	}
+	.section_1 .btns {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.section_1 .btns a {
+		width: 100%
+	}
+	.section_1 .btns a:first-child {
+		margin-right: 0px;
+		margin-bottom: 15px
 	}
 	/* Page:Rates */
 	.rates_table .rates_head {
@@ -2384,13 +2459,9 @@ nav .main_nav .closebtn {
 		margin-right: 0px;
 	}
 	.card .card-body .action a {
-		margin: 10px 0px;
 		font-size: 1em;
 		width: 180px;
-		padding: 15px 15px;
-	}
-	.card .card-body .action .sell2 {
-		margin-top: 0px;
+		padding: 0px 15px;
 	}
 	.rates_table .cell1 {
 		width: 220px;
@@ -2412,10 +2483,6 @@ nav .main_nav .closebtn {
 	}
 	/* page: Buy Currency */
 	/* select currency */
-	.card .card-header2 {
-		padding: 20px 30px 20px 85px;
-		background-size: 40px;
-	}
 	.card .card-header2 .card-link {
 		font-size: 2.3em;
 	}
@@ -2478,8 +2545,8 @@ nav .main_nav .closebtn {
 		margin-top: 20px;
 	}
 	.padd {
-	padding: 60px 15px;
-}
+		padding: 60px 15px;
+	}
 	/* top nav */
 	.header {
 		padding: 60px 15px 0px 15px;
@@ -2679,10 +2746,10 @@ nav .main_nav .closebtn {
 	.convert_cont .form-group .usa span {
 		font-size: 1.1em;
 	}
-	.btn-light .badge-success .currency .group_2 .bold {
+	.bootstrap-select .btn-light .currency .group_2 .bold {
 		font-size: 1.25em;
 	}
-	.badge-success .currency .group_2 {
+	.bootstrap-select .currency .group_2 {
 		font-size: 0.95em;
 	}
 	.dropdown-item {
@@ -2693,6 +2760,36 @@ nav .main_nav .closebtn {
 	}
 	.convert_cont .chart img {
 		width: 70%;
+	}
+	.img_container {
+		text-align: center
+	}
+	.img_container img {
+		width: 80%;
+	}
+	.section_1.padd {
+		padding: 10px 15px 60px 15px;
+	}
+	.section_1 .content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 40px
+	}
+	.section_1 p {
+		font-size: 1.5em;
+		text-align: center
+	}
+	.section_1 .btns {
+		display: flex;
+		flex-direction: row;
+	}
+	.section_1 .btns a {
+		width: auto
+	}
+	.section_1 .btns a:first-child {
+		margin-right: 15px;
+		margin-bottom: 0px
 	}
 	/* subscribe */
 	/* footer */
@@ -2838,11 +2935,11 @@ nav .main_nav .closebtn {
 	.buy_currency .card .card_body1 .select_currency .select_currency_body .note .btn-light {
 		background-position: 96.5%;
 	}
-	.buy_currency .card .card_body1 .select_currency .cell4{
-		align-items:flex-start
+	.buy_currency .card .card_body1 .select_currency .cell4 {
+		align-items: flex-start
 	}
-	.buy_currency .card .card_body1 .select_currency .cell4 .none{
-		margin-top:5px
+	.buy_currency .card .card_body1 .select_currency .cell4 .none {
+		margin-top: 5px
 	}
 	.buy_currency .card .card_body1 .select_currency .cell6 {
 		width: auto;
@@ -2935,9 +3032,6 @@ nav .main_nav .closebtn {
 }
 
 @media (max-width: 767.98px) {
-	.padd {
-	padding: 50px 15px;
-}
 	/* header */
 	.header.header2 {
 		padding: 120px 15px 60px 15px;
@@ -2955,13 +3049,13 @@ nav .main_nav .closebtn {
 		margin-top: 0px;
 	}
 	.convert_cont .block {
-		width:100%
+		width: 100%
 	}
 	.convert_cont .class_5 {
-		padding-right: 0px;
+		padding-right: 10px;
 	}
 	.convert_cont .class_6 {
-		padding-left: 0px;
+		padding-left: 10px;
 	}
 	.convert_cont .converter {
 		right: 50%;
@@ -2995,10 +3089,13 @@ nav .main_nav .closebtn {
 	.group_1 .official_rate a .no_1 {
 		font-size: 1.45em;
 	}
+	.img_container img {
+		width: 100%;
+	}
 	/* subscribe */
-.subscribe {
-	background-attachment: scroll;
-}
+	.subscribe {
+		background-attachment: scroll;
+	}
 	/* footer */
 	.footer_list2 {
 		flex-direction: column;
@@ -3022,7 +3119,7 @@ nav .main_nav .closebtn {
 		font-size: 1.1em;
 	}
 	.card:first-child {
-		border-top:solid 1px var(--grey5); 
+		border-top: solid 1px var(--grey5);
 	}
 	.rates_table .rates_head {
 		display: none;
@@ -3106,6 +3203,11 @@ nav .main_nav .closebtn {
 		margin: 0px;
 		width: 48%;
 	}
+	.card .card-header2 a.card-link {
+		background-position: 0px center;
+		padding: 10px 30px 10px 60px;
+		background-size: 43px;
+	}
 	.card .card-header2 .card-link {
 		font-size: 1.75em;
 	}
@@ -3134,8 +3236,8 @@ nav .main_nav .closebtn {
 		/* font-size: 1.2em; */
 	}
 	.buy_currency .card .card_body1 .select_currency .total_currency .total_num>div {
-		display:flex;
-		align-items:flex-end
+		display: flex;
+		align-items: flex-end
 	}
 	.buy_currency .card .card_body1 .select_currency .total_currency .class_15 {
 		width: 100%
@@ -3213,6 +3315,9 @@ nav .main_nav .closebtn {
 }
 
 @media (max-width:576px) {
+	.padd {
+		padding: 50px 15px;
+	}
 	h1 {
 		font-size: 3.75em;
 	}
@@ -3221,6 +3326,9 @@ nav .main_nav .closebtn {
 	}
 	.p2 {
 		margin: 20px 0px 0px 0px;
+	}
+	.header {
+		background-position: 25%;
 	}
 	/* convert */
 	.convert {
@@ -3246,26 +3354,28 @@ nav .main_nav .closebtn {
 		z-index: 1;
 	}
 	.convert_cont .class_5 {
-	padding-bottom: 0px;
-}
-.convert_cont .class_6 {
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+	.convert_cont .class_6 {
 		padding-top: 0px;
-}
+		padding-left: 0px;
+	}
 	.convert_cont .class_5.inverted {
-	transform: translate(0%, 140%);
-	-webkit-transform: translate(0%, 142%);
-	padding-left: 0px;
-	padding-bottom:0px;
-	padding-top: 0px;
-}
-.convert_cont .class_6.inverted {
+		transform: translate(0%, 140%);
+		-webkit-transform: translate(0%, 142%);
+		padding-left: 0px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.convert_cont .class_6.inverted {
 		transform: translate(0%, -140%);
 		-webkit-transform: translate(0%, -142%);
 		padding-right: 0px;
-		padding-top:0px;
+		padding-top: 0px;
 		z-index: 10;
 		padding-bottom: 0px;
-}
+	}
 	.convert_cont .class_5 .form-group {
 		margin-bottom: 0px;
 	}
@@ -3273,7 +3383,7 @@ nav .main_nav .closebtn {
 		font-size: 1.25em;
 	}
 	.convert_cont .form-group {
-		margin-bottom:0px
+		margin-bottom: 0px
 	}
 	.convert_cont .form-group input {
 		padding: 0px;
@@ -3322,6 +3432,21 @@ nav .main_nav .closebtn {
 	}
 	.convert_cont .chart img {
 		width: 100%;
+	}
+	.section_1.padd {
+		padding: 50px 15px;
+	}
+	.section_1 p {
+		font-size: 1.25em;
+	}
+	.section_1 .btns {
+		flex-direction: column;
+		margin-top:40px;
+		width: 100%;
+	}
+	.section_1 .btns a:first-child {
+		margin-right: 0px;
+		margin-bottom: 15px
 	}
 	/* subscribe */
 	.subscribe {
@@ -3387,10 +3512,6 @@ nav .main_nav .closebtn {
 	.buy_currency .container {
 		padding-right: 0px;
 		padding-left: 0px;
-	}
-	.card .card-header2 {
-		padding: 16px 30px 16px 75px;
-		background-size: 35px;
 	}
 	.card .card-header2 .card-link {
 		font-size: 1.5em;
@@ -3465,10 +3586,10 @@ nav .main_nav .closebtn {
 		width: 100%;
 		padding: 0px 10px;
 	}
-	.payment .form-group .btn-light .badge-success {
+	.payment .form-group .bootstrap-select .btn-light .currency {
 		font-size: 0.9em;
 	}
-	.payment .form-group .badge-success {
+	.payment .form-group .bootstrap-select .currency {
 		font-size: 1em;
 	}
 }
@@ -3516,6 +3637,9 @@ nav .main_nav .closebtn {
 	.convert_cont {
 		padding: 50px 15px;
 	}
+	.section_1.padd {
+		padding: 50px 5px;
+	}
 	/* Page:Rates */
 	.card .card-body .cell_chart img {
 		width: 100%;
@@ -3545,9 +3669,7 @@ nav .main_nav .closebtn {
 	}
 	.card .card-body .action a {
 		width: 100%;
-	}
-	.card .card-body .action .sell2 {
-		margin-top: 10px;
+		margin: 5px 0px;
 	}
 	/* page: Buy Currency */
 	/* select currency */
@@ -3604,7 +3726,7 @@ nav .main_nav .closebtn {
 	}
 }
 
-@media (max-width:420px) {
+@media (max-width: 420px) {
 	/* header */
 	.header.header2 {
 		padding: 100px 5px 50px 5px;
@@ -3899,7 +4021,7 @@ nav .main_nav .closebtn {
 	.payment .group_8 .img_3 {
 		right: 75px;
 	}
-	.payment .form-group .btn-light .badge-success {
+	.payment .form-group .bootstrap-select .btn-light .currency {
 		font-size: 0.85em;
 	}
 }
@@ -3908,6 +4030,9 @@ nav .main_nav .closebtn {
 	.container-fluid {
 		padding-right: 0px;
 		padding-left: 0px;
+	}
+	.section_1.padd {
+		padding: 50px 0px;
 	}
 	/* nav */
 	nav .main_nav .hamburger {
