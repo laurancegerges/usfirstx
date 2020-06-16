@@ -45,8 +45,10 @@ body a:focus {
 	--grey11: #fdfdfd;
 	--grey12: #8b8b8b;
 	--grey13: #efefef;
+	--grey14: #d1d1d1;
 	--white: #ffffff;
 	--black: #232323;
+	--black2: #272727;
 	--orange: #faaf42;
 	--hover1: #474747;
 	--hover2: #ff9906;
@@ -81,6 +83,22 @@ h4 {
 	font-weight: 700;
 	font-size: 1.15em;
 	color: var(--black);
+}
+
+h5 {
+	margin: 15px 0px;
+	padding: 0px;
+	font-weight: 700;
+	font-size: 1.45em;
+	color: var(--black2);
+}
+
+h6 {
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	font-weight: 700;
+	font-size: 1.15em;
+	color: var(--black2);
 }
 
 p {
@@ -2408,9 +2426,272 @@ nav .main_nav .closebtn {
 	line-height: 1;
 }
 
+/* How_it_works */
+
+.header.bg1 {
+	background-image: url(../images/how_it_works_bg.jpg);
+}
+
+.main_section {
+	background-color: var(--grey4);
+}
+
+.main_section.class_28 {
+	border-bottom: solid 1px var(--grey14);
+}
+
+.main_section h2 {
+	text-align: center;
+	color: var(--black2);
+	margin-bottom: 40px;
+}
+
+.main_section p {
+	font-size: 1.15em;
+	text-align: center;
+	font-weight: 400;
+	color: var(--grey3);
+}
+
+.frames {
+	margin-top: 35px;
+}
+
+.frame {
+	text-align: center;
+	padding: 0px 25px 30px 25px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 11px 40px 0px rgba(0, 0, 0, 0.09);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	position: relative;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+	top: 0px
+}
+
+.frame:hover {
+	top: 30px
+}
+
+.frame_img {
+	background-color: var(--orange);
+	border-radius: 0px 0px 5px 5px;
+	padding: 25px 20px 20px 20px;
+	width: auto;
+	margin-bottom: 25px;
+}
+
+.frame_img img {
+	height: 50px;
+}
+
+.frame span {
+	font-weight: 700;
+	font-size: 2.55em;
+	color: var(--black2);
+	line-height: 1;
+}
+
+.frame p {
+	font-size: 1em;
+}
+
+.main_section p.mar_bottom_30 {
+	margin-bottom: 30px;
+}
+
+/* about_it */
+
+.header.bg2 {
+	background-image: url(../images/about_bg.jpg);
+}
+
+.frame.frame2 {
+	padding: 40px;
+	align-items: flex-start;
+	height: auto;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+	left: 0px;
+	top: 0px;
+	position: relative;
+	z-index: 0
+}
+
+.frame.frame2:hover {
+	left: 40px;
+	top: -40px;
+	z-index: 10
+}
+
+.frame.frame2.class_31:hover {
+	top: 40px;
+}
+
+.frame.frame2.class_30:hover {
+	top: 150px;
+	left: -40px;
+	margin-right: 55px
+}
+
+.frame2 img {
+	height: 100px;
+	margin-bottom: 25px;
+}
+
+.frame2 p {
+	text-align: left;
+	font-size: 1.15em;
+}
+
+.frame2.class_30 {
+	position: absolute;
+	top: 150px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.frame2.class_31 {
+	margin-bottom: 30px;
+}
+
+/* Receive your funds */
+
+.header.bg3 {
+	background-image: url(../images/receive_funds_bg.jpg);
+}
+
+.main_section .class_33 h2 {
+	text-align: left;
+}
+
+.main_section .class_33 p {
+	text-align: left;
+}
+
+.main_section .class_33 p a {
+	color: var(--orange);
+}
+
+.main_section .class_32 {
+	text-align: center;
+}
+
+.main_section .class_32 img {
+	width: 90%;
+}
+
+.frames3 {
+	margin-top: 20px;
+}
+
+.frame.frame3 {
+	padding: 40px 30px;
+}
+
+.frame3 img {
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+/* secure currency shipping */
+
+.header.bg4 {
+	background-image: url(../images/shipping_bg.jpg);
+}
+
+.main_section_cont ul {
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.main_section_cont ul li {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.main_section_cont ul li .function_img {
+	padding: 10px;
+	background-color: var(--orange);
+	border: solid 2px #5b5a5c;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 15px;
+	z-index: 5;
+}
+
+.main_section_cont ul li .function_img img {
+	width: 30px;
+	height: 30px;
+}
+
+.main_section_cont ul li:last-child {
+	margin-bottom: 0px;
+}
+
+.main_section_cont ul li .function p {
+	font-size: 1em;
+}
+
+.main_section_cont ul li .function {
+	position: relative;
+}
+
+.main_section_cont ul li .function::before {
+	content: '';
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 55px;
+	z-index: 1;
+	left: -42px;
+	border-left: dashed 1.5px #c2c2c2c2;
+}
+
+.main_section_cont ul li .function.class_36::before {
+	display: none;
+}
+
+.main_section .class_34 img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.main_section .class_35 img {
+	width: 80%;
+	margin-top: 20px;
+}
+
+.frames4 {
+	margin-top: 20px;
+	padding: 0px 50px;
+}
+
+.frame4 {
+	text-align: center;
+	padding: 0px 30px;
+}
+
+.frame4 img {
+	height: 60px;
+	margin-bottom: 15px;
+}
+
 @media (max-width: 1199.98px) {
 	h2 {
 		font-size: 3.1em;
+	}
+	h5 {
+		margin: 10px 0px;
+		font-size: 1.4em;
 	}
 	/* convert */
 	.convert_cont .form-group input {
@@ -2530,6 +2811,29 @@ nav .main_nav .closebtn {
 	.shipping_method .shipping_method_body .package {
 		padding: 15px;
 		max-width: 300px;
+	}
+	/* How_it_works */
+	.frame {
+		padding: 0px 15px 30px 15px;
+	}
+	.frame_img {
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.frame span {
+		font-size: 2.4em;
+	}
+	/* receive your funds */
+	.frame3 img {
+		height: 70px;
+	}
+	/* secure currency shipping */
+	.frames4 {
+		padding: 0px 30px;
+		margin-top: 10px;
+	}
+	.frame4 {
+		padding: 0px 20px;
 	}
 }
 
@@ -3029,6 +3333,82 @@ nav .main_nav .closebtn {
 	.payment .billing_info .class_27 {
 		padding: 0px;
 	}
+	/* How it works */
+	.swiper-container {
+		padding-bottom: 40px !important;
+	}
+	.swiper-slide {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.swiper-pagination-bullet-active {
+		background-color: var(--black2) !important;
+	}
+	.frame {
+		width: 100%;
+		max-width: 280px;
+	}
+	.swiper-pagination {
+		bottom: 0px !important
+	}
+	.frame:hover {
+		top: 0px
+	}
+	/* About Us */
+	.frame2.class_30 {
+		position: static;
+	}
+	.main_section_cont [class*=col-] .frame2 {
+		margin-bottom: 30px;
+	}
+	.frame.frame2 {
+		position: static;
+		width: 100%;
+		max-width: 100%;
+	}
+	.main_section_cont [class*=col-]:last-child .frame2 {
+		margin-bottom: 0px;
+	}
+	.frame2.class_30 {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.frame.frame2.class_30:hover {
+		margin-right: 0px
+	}
+	/* receive your funds */
+	.frame.frame3 {
+		padding: 30px 20px;
+	}
+	.frame3 img {
+		height: 60px;
+	}
+	.main_section .class_32 img {
+		width: 70%;
+		margin-top: 40px;
+	}
+	/* secure currency shipping */
+	.main_section .class_34 {
+		text-align: center;
+	}
+	.main_section .class_34 img {
+		width: 70%;
+		margin-top: 40px;
+	}
+	.main_section .class_35 {
+		order: 2;
+	}
+	.main_section .class_35 img {
+		width: 60%;
+	}
+	.frame4 {
+		padding: 0px 10px;
+	}
+	.frame4 img {
+		height: 50px;
+		margin-bottom: 10px;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -3312,6 +3692,34 @@ nav .main_nav .closebtn {
 	.tab-content {
 		padding-top: 10px;
 	}
+	/* how it work */
+	.main_section h2 {
+		margin-bottom: 30px;
+	}
+	/* About Us */
+	.frame.frame2 {
+		padding: 30px;
+	}
+	/* receive your funds */
+	.main_section .class_32 img {
+		width: 80%;
+		margin-top: 30px;
+	}
+	/* secure currency shipping */
+	.main_section .class_34 img {
+		width: 80%;
+		margin-top: 30px;
+	}
+	.header.bg4 {
+		height: 400px;
+	}
+	.main_section .class_35 img {
+		width: 70%;
+	}
+
+	.frames4 {
+		margin-top: 20px;
+	}
 }
 
 @media (max-width:576px) {
@@ -3323,6 +3731,9 @@ nav .main_nav .closebtn {
 	}
 	h2 {
 		font-size: 2.65em;
+	}
+	h5 {
+		font-size: 1.3em;
 	}
 	.p2 {
 		margin: 20px 0px 0px 0px;
@@ -3441,7 +3852,7 @@ nav .main_nav .closebtn {
 	}
 	.section_1 .btns {
 		flex-direction: column;
-		margin-top:40px;
+		margin-top: 40px;
 		width: 100%;
 	}
 	.section_1 .btns a:first-child {
@@ -3591,6 +4002,47 @@ nav .main_nav .closebtn {
 	}
 	.payment .form-group .bootstrap-select .currency {
 		font-size: 1em;
+	}
+	/* how it work */
+	.frame {
+		padding: 0px 20px 40px 20px;
+	}
+	.frame_img {
+		padding: 15px 20px;
+	}
+	/* About Us */
+	.frame.frame2 {
+		padding: 30px 20px;
+	}
+	.frame2 img {
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	/* receive your funds */
+	.main_section .class_32 img {
+		width: 90%;
+	}
+	/* secure currency shipping */
+	.none4 {
+		display: none;
+	}
+	.main_section_cont ul li .function_img {
+		padding: 8px;
+		margin-right: 10px;
+	}
+	.main_section_cont ul li .function_img img {
+		width: 25px;
+		height: 25px;
+	}
+	.main_section_cont ul li .function::before {
+		top: 45px;
+		left: -33px;
+	}
+	.main_section .class_34 img {
+		width: 90%;
+	}
+	.main_section .class_35 img {
+		width: 80%;
 	}
 }
 
@@ -3744,6 +4196,10 @@ nav .main_nav .closebtn {
 	.subscribe .form-group.email button {
 		border-radius: 2px;
 		width: 100%;
+	}
+	/* footer */
+	.footer_list .footer_logos img {
+		margin-right: 20px;
 	}
 	/* convert */
 	.convert_cont .chart img {
@@ -4023,6 +4479,44 @@ nav .main_nav .closebtn {
 	}
 	.payment .form-group .bootstrap-select .btn-light .currency {
 		font-size: 0.85em;
+	}
+	/* how it work */
+	.frame span {
+		font-size: 2.2em;
+	}
+	.none3 {
+		display: none;
+	}
+	/* About Us */
+	.main_section_cont [class*=col-] .frame2 {
+		margin-bottom: 20px;
+	}
+	.frame2 img {
+		height: 70px;
+		margin-bottom: 15px;
+	}
+	/* receive your funds */
+	.main_section .class_32 img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.frame3 img {
+		height: 50px;
+		margin-bottom: 5px;
+	}
+	/* secure currency shipping */
+	.header.bg4 {
+		height: 450px;
+	}
+	.main_section .class_34 img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.main_section .class_35 img {
+		width: 90%;
+	}
+	.frame4 img {
+		margin-bottom: 5px;
 	}
 }
 
