@@ -2685,6 +2685,57 @@ nav .main_nav .closebtn {
 	margin-bottom: 15px;
 }
 
+/* page: Terms and Conditions */
+.header_2{
+	background-color: #acacad;
+	padding: 30px 20px;
+	text-align: center;
+	border-bottom:5px solid var(--orange);
+}
+.header_2 h1{
+	color: white;
+	font-weight: 700
+}
+@media (min-width: 1200px){
+	.main_section_2 .container{
+	max-width: 930px;
+}
+}
+.main_section_2 .container{
+	padding:50px 15px;
+}
+.main_section_2 .block{
+	margin-bottom: 45px;
+	color: var(--grey3);
+}
+.main_section_2 .block h2{
+	border-bottom: 1px solid var(--grey5);
+	margin-bottom: 20px;
+	padding-bottom:10px;
+	color: var(--black2);
+	font-size: 2em;
+}
+.main_section_2 .block p{
+	font-size: 1em
+}
+.main_section_2 .block p.bold{
+	font-weight: 700
+}
+.main_section_2 .block ol{
+	font-size: 1em;
+	padding-left: 15px;
+}
+.main_section_2 .block ol li{
+	margin-bottom: 20px;
+}
+.main_section_2 .block ul.abc{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.main_section_2 .block ul.abc li{
+	margin-bottom: 0px;
+}
+
 @media (max-width: 1199.98px) {
 	h2 {
 		font-size: 3.1em;
@@ -2835,6 +2886,7 @@ nav .main_nav .closebtn {
 	.frame4 {
 		padding: 0px 20px;
 	}
+		/* page: Terms and Conditions */
 }
 
 @media (max-width:991.98px) {
@@ -3409,6 +3461,23 @@ nav .main_nav .closebtn {
 		height: 50px;
 		margin-bottom: 10px;
 	}
+
+	/* page: Terms and Conditions */
+.header_2{
+	margin-top:60px
+}
+.header_2 h1{
+	font-size:3em
+}
+.main_section_2 .container{
+	padding: 40px 15px;
+}
+.main_section_2 .block{
+	margin-bottom: 35px;
+}
+.main_section_2 .block h2{
+	font-size: 1.8em;
+}
 }
 
 @media (max-width: 767.98px) {
@@ -4044,6 +4113,16 @@ nav .main_nav .closebtn {
 	.main_section .class_35 img {
 		width: 80%;
 	}
+		/* page: Terms and Conditions */
+.header_2 h1{
+	font-size:2.7em
+}
+.main_section_2 .container{
+	padding: 40px 15px;
+}
+.main_section_2 .block h2{
+	font-size: 1.5em;
+}
 }
 
 @media (max-width:480px) {
@@ -4213,6 +4292,13 @@ nav .main_nav .closebtn {
 	.payment .nav-tabs .nav-link {
 		padding: 15px 10px;
 	}
+			/* page: Terms and Conditions */
+.header_2 h1{
+	font-size:2.3em
+}
+.main_section_2 .block h2{
+	font-size: 1.4em;
+}
 }
 
 @media (max-width: 375px) {
