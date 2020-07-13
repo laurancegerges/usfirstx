@@ -2716,7 +2716,8 @@ nav .main_nav .closebtn {
 	font-size: 2em;
 }
 .main_section_2 .block p{
-	font-size: 1em
+	font-size: 1em;
+	text-align: justify;
 }
 .main_section_2 .block p.bold{
 	font-weight: 700
@@ -2727,6 +2728,7 @@ nav .main_nav .closebtn {
 }
 .main_section_2 .block ol li{
 	margin-bottom: 20px;
+	text-align: justify;
 }
 .main_section_2 .block ul.abc{
 	list-style-type: none;
@@ -2734,6 +2736,7 @@ nav .main_nav .closebtn {
 }
 .main_section_2 .block ul.abc li{
 	margin-bottom: 0px;
+	text-align: justify;
 }
 
 @media (max-width: 1199.98px) {
